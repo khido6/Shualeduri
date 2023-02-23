@@ -1,0 +1,451 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+  }
+  .sidebar {
+    background-color: #222222;
+    width: 319px;
+    padding: 40px 30px;
+    padding-bottom: 90px;
+    float: left;
+    flex-wrap: wrap;
+  }
+  .right_content {
+    width: 100%;
+    background-color: #ffffff;
+    padding-left: 319px;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    align-items: center;
+  }
+  .logo h1 {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Avenir LT Std Book";
+  }
+  .logo span {
+    font-size: 20px;
+    opacity: 0.9;
+  }
+  .logo img {
+    height: 16px;
+  }
+  .sidbarnav li a img {
+    width: 24px;
+    margin-right: 15px;
+  }
+  .sidbarnav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 18px 30px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 12px;
+    font-family: "Avenir LT Std Medium";
+  }
+  .sidebar nav ul li {
+    display: flex;
+    align-items: center;
+  }
+  .follower ul li img {
+    width: 44px;
+    border-radius: 50%;
+    margin-right: 21px;
+  }
+  .follower ul li {
+    margin-bottom: 12px;
+  }
+  .follower ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    font-family: "Avenir LT Std Medium";
+  }
+  .follower span {
+    color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 30px;
+    display: block;
+    font-family: "Avenir LT Std Roman";
+  }
+  .follower {
+    margin-top: 65px;
+    margin-left: 30px;
+  }
+  .follower button {
+    background-color: transparent;
+    border: 0;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: "Avenir LT Std Roman";
+  }
+  .sidebar nav a:hover {
+    background-color: #ff2288;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+    padding-right: 90px;
+    padding-left: 25px;
+    border-bottom: 1px solid #e1d7d7;
+  }
+  .searchform input {
+    width: 446px;
+    height: 56px;
+    border: 0;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    color: #111111;
+    outline: none;
+    border-radius: 12px;
+    padding: 0px 20px;
+    padding-right: 55px;
+  }
+  .searchform label {
+    position: relative;
+  }
+  .searchform button {
+    background: transparent;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: -4px;
+  }
+  .searchform img {
+    width: 24px;
+    height: 24px;
+  }
+  .profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .profile span {
+    color: #ff2288;
+    font-size: 14px;
+    margin-right: 36px;
+  }
+  .smallicon img {
+    width: 24px;
+    height: 24px;
+  }
+  .smallicon {
+    position: relative;
+    margin-right: 30px;
+  }
+  .smallicon i {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #ff2288;
+    display: block;
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    border: 1px solid #fff;
+  }
+  .largeiconpofile {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+  }
+  .uploadbutton {
+    width: 129px;
+    height: 53px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 12px;
+    outline: none;
+    border: 0;
+    background-color: #ff2288;
+    margin-left: 30px;
+  }
+  
+  .category_section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 15px;
+    max-width: 1245px;
+    margin: 20px auto;
+  }
+  .list span {
+    color: #222222;
+    font-size: 16px;
+    margin: 0px 8px;
+    padding: 18px 17px;
+    font-family: "Avenir LT Std Book";
+  }
+  .list a {
+    text-decoration: none;
+  }
+  .filter img {
+    width: 24px;
+    height: 24px;
+  }
+  .filter span {
+    font-size: 16px;
+    vertical-align: super;
+    padding-left: 14px;
+  }
+  .filter button {
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #d8d8d8;
+    width: 138px;
+    height: 57px;
+  }
+  .list span:hover {
+    background-color: #f2f2f2;
+    border-radius: 12px;
+  }
+  .section_imgs img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
+  .section_imgs {
+    margin: 0px auto;
+    max-width: 1255px;
+    position: relative;
+  
+    padding: 0 15px;
+  }
+  .section_imgs .grid_img {
+    float: left;
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 20px;
+  }
+  .grid_img span {
+    max-height: 49px;
+    height: 49px;
+    overflow: hidden;
+    display: block;
+    margin-top: 8px;
+    font-family: "Avenir LT Std Medium";
+  }
+  .imgs_icon img {
+    width: 34px;
+    height: 34px;
+    margin: 3px 0px;
+  }
+  .imgs_icon {
+    display: none;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+  .twoicon {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 5px;
+  }
+  .moreinfobt button {
+    display: block;
+    width: 289px;
+    height: 56px;
+    border-radius: 12px;
+    border: 0;
+    font-size: 16px;
+    color: #222222;
+    margin: 0 auto;
+    margin-top: 38px;
+  }
+  .picturesection {
+    position: relative;
+  }
+  
+  .picturesection:hover .imgs_icon {
+    display: block;
+  }
+  .follower_section {
+    background-color: #fafafa;
+    margin-top: 35px;
+    width: 100%;
+    padding: 60px 0px;
+    margin-bottom: 35px;
+  }
+  .follower_title {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1231px;
+  }
+  .followers {
+    max-width: 1261px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .follower_title h1 {
+    font-size: 32px;
+    color: #222222;
+    font-family: "Avenir LT Std Roman";
+  }
+  .follower_title span a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #222222;
+    font-family: "Avenir LT Std Roman";
+  }
+  .section_users {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 27px;
+  }
+  .designer img {
+    width: 132px;
+    height: 132px;
+    border-radius: 100%;
+  }
+  .designer h3 {
+    font-size: 16px;
+    color: #222222;
+    font-family: "Avenir LT Std Medium";
+    margin: 0 auto;
+    margin-top: 8px;
+    max-width: 70px;
+  }
+  .designer span {
+    color: #222222;
+    font-size: 12px;
+    opacity: 0.6;
+    font-family: "Avenir LT Std Book";
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+  }
+  .designer button {
+    background-color: #f2f2f2;
+    border: 1px solid #d8d8d8;
+    font-size: 14px;
+    color: #222222;
+    outline: none;
+    border-radius: 12px;
+    padding: 13px 34px;
+    display: block;
+    margin-top: 15px;
+    font-family: "Avenir LT Std Book";
+  }
+  .otherprofile {
+    padding-top: 25px;
+  }
+  #userfollowing {
+    border: 0;
+    background-color: #d8d8d8;
+  }
+  #userfollowings {
+    border: 0;
+    background-color: #d8d8d8;
+  }
+  .footer_lists {
+    max-width: 1231px;
+    margin: 0 auto;
+  }
+  .footer_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1060px;
+    padding-bottom: 100px;
+  }
+  .footer_container a {
+    color: #222222;
+    font-size: 16px;
+    line-height: 35px;
+    text-decoration: none;
+    font-family: "Avenir LT Std Book";
+  }
+  .footer_title {
+    color: black;
+    display: flex;
+    margin-bottom: 31px;
+    font-family: "Avenir LT Std Medium";
+  }
+  .lastfooter {
+    max-width: 1231px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .footer_icon img {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+  }
+  .footer_text span {
+    font-family: "Avenir LT Std Book";
+    font-size: 16px;
+  }
+  .smartacdmy {
+    font-weight: bold;
+  }
+  /*this is second page */
+  .user_icon img {
+    width: 24px;
+    height: 24px;
+  }
+  .user_icon {
+    background-color: #3e1d1d00;
+    border: 1px solid #e7e7e7;
+    border-radius: 50px;
+    padding: 6px 8px;
+  }
+  .section_info {
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 35px;
+    padding: 0 15px;
+  }
+  .section_info table {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .section_info table th {
+    font-size: 18px;
+    color: #111111;
+    font-family: "Avenir LT Std Roman";
+    padding: 25px 15px;
+    border-bottom: 1px solid #e7e7e7;
+  }
+  .section_info table td {
+    font-size: 16px;
+    color: #afafaf;
+    font-family: "Avenir LT Std Roman";
+    padding: 25px 15px;
+    border-bottom: 1px solid #e7e7e7;
+  }
+  .section_info table tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+  .section_info table tbody tr:hover td {
+    color: #111111;
+  }
+  footer {
+    margin-top: 50px;
+  }

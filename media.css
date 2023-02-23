@@ -1,0 +1,164 @@
+@media only screen and (max-width: 1024px) {
+    header {
+      padding-right: 25px;
+    }
+    .searchform {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    .searchform input {
+      width: 100%;
+    }
+    .profile {
+      margin: 0 auto;
+    }
+    .list span {
+      display: inline-block;
+      padding: 5px 8px;
+      margin: 0;
+    }
+    .list {
+      width: 100%;
+      text-align: center;
+    }
+    .filter {
+      margin: 0 auto;
+      margin-top: 15px;
+    }
+    .filter button {
+      width: 110px;
+      height: 45px;
+    }
+    .filter img {
+      width: 20px;
+      height: initial;
+    }
+    .grid_img span {
+      width: 100%;
+    }
+    .section_users {
+      gap: 30px;
+    }
+  
+    .footer_container div {
+      width: 50%;
+      margin-bottom: 30px;
+    }
+    .footer_title {
+      margin-bottom: 15px;
+    }
+    .footer_text {
+      margin-right: 15px;
+    }
+    .section_imgs .grid_img {
+      width: 33.333%;
+    }
+    .picturesection img {
+      border-radius: 15px;
+    }
+    .section_imgs img {
+      height: 190px;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .logo img {
+      margin-left: 5px;
+    }
+    .logo {
+      display: inline-flex;
+      margin: 0px -25px;
+    }
+    .logo img {
+      height: 10px;
+    }
+    .logo h1 {
+      font-size: 16px;
+    }
+    .sidbarnav ul {
+      margin-left: -50px;
+    }
+    .sidebar {
+      width: 37%;
+    }
+    .sidbarnav a {
+      font-size: 13px;
+    }
+    .follower {
+      margin-left: -25px;
+    }
+    .right_content {
+      padding-left: 0px;
+    }
+    .searchform input {
+      height: 40px;
+    }
+    header {
+      padding-left: 0px;
+    }
+    .smallicon {
+      display: none;
+    }
+    .profile {
+      margin-right: 0px;
+    }
+    .profile span {
+      margin-right: -6px;
+    }
+    .uploadbutton {
+      width: 75px;
+      height: 35px;
+    }
+    .list span {
+      padding: 2px 5px;
+    }
+    .filter button {
+      width: 95px;
+      height: 35px;
+    }
+    .section_imgs .grid_img {
+      width: 31%;
+    }
+    .section_imgs img {
+      height: 70px;
+    }
+    .moreinfobt button {
+      width: 260px;
+      height: 40px;
+    }
+    .followers {
+      margin: -40px auto;
+    }
+    .follower_title h1 {
+      font-size: 25px;
+    }
+    .designer img {
+      width: 100px;
+      height: 100px;
+    }
+    .section_users {
+      gap: 5px;
+    }
+    footer {
+      margin-top: 25px;
+    }
+    .footer_lists {
+      margin-left: 15px;
+    }
+    .profile span {
+      margin-left: 10px;
+    }
+    .tabletd {
+      display: none;
+    }
+    .section_info table {
+      width: 63%;
+      display: inline-block;
+    }
+    .section_info table td {
+      font-size: 15px;
+      padding: 0.5px 15px;
+    }
+    .lastfooter {
+      margin: -70px auto;
+    }
+  }
